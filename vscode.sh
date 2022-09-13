@@ -8,4 +8,4 @@ sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.m
 dnf check-update
 
 # vscode install
-sudo dnf install code
+sudo dnf install -y code
