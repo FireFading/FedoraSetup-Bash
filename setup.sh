@@ -41,7 +41,7 @@ sudo dnf -y install dnf-plugins-core \
                     htop \
                     transmission \
                     stacer \
-                    cozy \
+                    mpv \
                     gnome-tweaks \
                     chromium
 
