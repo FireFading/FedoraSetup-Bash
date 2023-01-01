@@ -1,10 +1,10 @@
 # install selenium
 pip install selenium
 
-cd /home/sunrise/Downloads
+cd ~/Downloads
 
 # get chromedriver
-wget https://chromedriver.storage.googleapis.com/103.0.5060.134/chromedriver_linux64.zip
+wget https://chromedriver.storage.googleapis.com/107.0.5304.62/chromedriver_linux64.zip
 unzip chromedriver_linux64.zip
 
 # install chromedriver
