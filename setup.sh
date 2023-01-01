@@ -1,5 +1,5 @@
 # dnf boost
-# echo -e "[main]\ngpgcheck=1\ninstallonly_limit=3\nclean_requirements_on_remove=True\nbest=False\nskip_if_unavailable=True\nfastestmirror=1\nmax_parallel_downloads=10\ndeltarpm=true" | sudo tee /etc/dnf/dnf.conf
+echo -e "[main]\ngpgcheck=1\ninstallonly_limit=3\nclean_requirements_on_remove=True\nbest=False\nskip_if_unavailable=True\nfastestmirror=1\nmax_parallel_downloads=10\ndeltarpm=true" | sudo tee /etc/dnf/dnf.conf
 
 # check for all updates
 sudo dnf autoremove
@@ -38,7 +38,7 @@ sudo dnf -y install dnf-plugins-core \
                     neofetch \
                     ffmpeg \
                     micro \
-                    htop \
+                    xclip \
                     transmission \
                     stacer \
                     mpv \

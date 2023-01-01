@@ -1,4 +1,4 @@
-sudo dnf install @virtualisation
+sudo dnf install @virtualization
 
 # sudo micro /etc/libvirt/libvirtd.conf
 # uncomment #unix_sock_group = "libvirt", #unix_sock_rw_perms = "0770"
